@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audiograffiti</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="parent" id="click-area"></div>
+
+    <div class="strippone">
+        <marquee direction="left" scrollamount="5" scrolldelay="1.2"> 
+          --- tocca l'asterisco e scrivi quello che pensi --- il messaggio è completamente anonimo
+        </marquee>
+    </div>
+
+    <div class="asteriscone">*</div>  
+      
+    <div class="strippino">
+      <marquee direction="left" scrollamount="5" scrolldelay="1"> 
+        --- scrivi quello che pensi --- il messaggio è completamente anonimo --- tocca l'asterisco centrale
+      </marquee>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
