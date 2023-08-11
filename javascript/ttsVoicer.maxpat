@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1090.0, 787.0 ],
+		"rect" : [ 149.0, 229.0, 686.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.111106872558594, 429.0, 30.0, 30.0 ]
+					"patching_rect" : [ 91.222213745117188, 204.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 429.0, 34.0, 22.0 ],
+					"patching_rect" : [ 23.111106872558594, 204.0, 34.0, 22.0 ],
 					"text" : "error"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 413.0, 120.0, 58.0, 22.0 ],
+					"patching_rect" : [ 225.0, 21.287590026855469, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 232.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 23.111106872558594, 44.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.111106872558594, 293.617645263671875, 71.0, 22.0 ],
+					"patching_rect" : [ 23.111106872558594, 140.617645263671875, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 226.111106872558594, 324.5, 145.0, 22.0 ],
+					"patching_rect" : [ 23.111106872558594, 171.5, 145.0, 22.0 ],
 					"text" : "route error success exists"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.0, 150.712409973144531, 64.0, 22.0 ],
+					"patching_rect" : [ 225.0, 52.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -132,13 +132,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "n4m.monitor.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 581.225479125976562, 284.307205200195312, 400.0, 220.0 ],
+					"patching_rect" : [ 266.111106872558594, 132.307205200195312, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -150,12 +151,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 226.111106872558594, 248.9281005859375, 262.0, 22.0 ],
+					"patching_rect" : [ 23.111106872558594, 95.9281005859375, 262.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
